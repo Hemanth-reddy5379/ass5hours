@@ -1,0 +1,17 @@
+<html>
+<h1> Time Based Greeting</h1>
+<script>
+var date = new Date();
+var time =date.getHours();
+var greeting;
+if(time<12)
+   greeting="Good Morining";
+else if(time=>12 && time<16)
+   greeting ="Good Afternoon";
+else
+   greeting ="Good Evening";
+document.write("<h2>"+ greeting+"</h2>");
+</script>
+</html>
+  
+   
